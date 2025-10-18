@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Maths.CountDigit" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../../Program Files/Java/jre1.8.0_421" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="MAIN_CLASS_NAME" value="Maths.CountDigit" />
+    <module name="DSA" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="Maths.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
