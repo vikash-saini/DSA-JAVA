@@ -60,5 +60,23 @@ public class CountFrequencyofNumber {
             System.out.println(entry.getKey() + " occurs " + entry.getValue() + " times");
         }
     }
+
+    public List<List<Integer>> countFrequencies(int[] nums) {
+        // Your code goes here
+        HashMap<Integer, Integer> frequencyMap = new HashMap<>();
+        
+        for(int num : nums){
+            frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);
+        } 
+        List<List<Integer>> arrList = new ArrayList<>();
+
+        for(Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()){
+            List<Integer> pair = new ArrayList<>();
+            pair.add(entry.getKey());
+            pair.add(entry.getValue());
+        }
+            
+        return arrList;
+    }
     
 }
