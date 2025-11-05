@@ -26,9 +26,12 @@ public class FirstAndLastOccurance {
             System.out.println("LowerUpperBound: -1,-1");
         }else{
             System.out.print("LowerUpperBound: {");
-            System.out.print(first+","+(lb.findUpperBound(arr, target)-first + 1));
+            System.out.print(first+","+(lb.findUpperBound(arr, target) - 1));
             System.out.print("}");
         }
+
+        // Count Occurance of duplicate values
+        System.out.println();
     }
 
     /* Linear Search: TC O(n) */

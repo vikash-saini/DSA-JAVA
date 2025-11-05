@@ -3,7 +3,7 @@ package ArrayProblems;
 public class rotateByDplaces {
     public static void main(String[] args){
         int[] arr = {1,2,3,4,5,6,7};
-        int d = 8; // Number of places to rotate
+        int d = 2; // Number of places to rotate
         System.out.println("Array before rotation: ");
         printArray(arr);
         leftRotateByDPlaces(arr, d);
